@@ -10,10 +10,8 @@ public class BirthDayCakeCandles {
      * Complete the birthdayCakeCandles function below.
      */
     static int birthdayCakeCandles(int n, int[] ar) {
-        /*
-         * Write your code here.
-         */
-    	
+
+    	// Simples linear search with max value
     	int count = 0;
     	int maxValue = 0;
     	for (int currItem : ar) {
